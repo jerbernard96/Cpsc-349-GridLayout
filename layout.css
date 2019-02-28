@@ -35,3 +35,93 @@ main {
 ul {
   grid-row: 2 / 5;
 } */
+
+
+
+/*Grid*/
+body{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+/* article Nav on right */
+/*.nav{
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:3;
+    grid-row-end:6;
+}*/
+/*display links horizontally*/
+/*.li{
+    display: inline
+}*/
+/*articles and links both on right*/
+/*nav
+{
+    grid-column-start:4;
+    grid-column-end:6;
+    grid-row-start:3;
+    grid-row-end:6; 
+}*/
+/*Footer below header.Article nav left. Links right*/
+header{
+    grid-column-start:1;
+    grid-column-end:6;
+    grid-row-start:1;
+    grid-row-end:2; 
+}
+/*footer{
+    grid-column-start:1;
+    grid-column-end:6;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.navAr{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:3;
+    grid-row-end:6; 
+}
+.navLinks{
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:3;
+    grid-row-end:6; 
+}
+.Article{
+    grid-column-start:2;
+    grid-column-end:5;
+    grid-row-start:3;
+    grid-row-end:6; 
+}*/
+/*Footer back at bottom second paragraph of each art shown as a pull-quote*/
+footer{
+    grid-column-start:1;
+    grid-column-end:6;
+    grid-row-start:5;
+    grid-row-end:6;
+}
+.navAr{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:5; 
+}
+.navLinks{
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:2;
+    grid-row-end:5; 
+}
+.Article{
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:5; 
+}
+.ArticleQuote{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:5; 
+}
