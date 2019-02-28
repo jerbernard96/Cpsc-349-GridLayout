@@ -1,0 +1,40 @@
+/* Add site styles here */
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+
+
+footer{
+  background-color: #8CF2FD;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+
+header {
+  background-color: #8CF2FD;
+  border-color: inherit;
+  border-style: double;
+  border-width: 7px;
+  font-family: 'Srisakdi', cursive;
+  font-size: 30px;
+}
+
+.links {
+  background-color: #E8C771;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.navigation {
+  background-color: #E8C771;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+
+}
+
+ul {
+  background-color: #E8C771;
+
+}
